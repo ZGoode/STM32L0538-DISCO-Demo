@@ -1,0 +1,26 @@
+# STM32CubeIDE build output. The generated Debug makefiles are kept in the
+# repository; only the files produced by a build are ignored.
+Debug/*.elf
+Debug/*.map
+Debug/*.list
+!Debug/objects.list
+Debug/**/*.o
+Debug/**/*.d
+Debug/**/*.su
+Debug/**/*.cyclo
+Release/
+*.bin
+*.hex
+
+# STM32CubeIDE / Eclipse workspace metadata
+.metadata/
+*.launch
+
+# Editor and OS artifacts
+*.bak
+*.orig
+*.swp
+*~
+.vscode/
+.DS_Store
+Thumbs.db
